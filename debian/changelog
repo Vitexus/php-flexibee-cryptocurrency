@@ -1,0 +1,37 @@
+php-flexibee-cryptocurrency (0.14) UNRELEASED; urgency=medium
+
+  [ Vitex ]
+  * QR Payments
+
+  [ Vítězslav Dvořák ]
+  * Enable/Disable Company logo
+
+ -- Vítězslav Dvořák <info@vitexsoftware.cz>  Thu, 29 Nov 2018 14:33:27 +0100
+
+php-flexibee-cryptocurrency (0.11) experimental; urgency=medium
+
+  * SKIPLIST
+  * Html Mails
+
+ -- Vítězslav Dvořák <info@vitexsoftware.cz>  Wed, 28 Nov 2018 15:53:03 +0100
+
+php-flexibee-cryptocurrency (0.10) UNRELEASED; urgency=medium
+
+  * use Notify Sending modules
+  * get debts also from "pohledavky" evidence
+  * flexibee-notify-clients tool
+  * MAX_MAIL_SIZE setting
+  * speedup
+  * 
+
+ -- Vítězslav Dvořák <info@vitexsoftware.cz>  Mon, 26 Nov 2018 18:53:16 +0100
+
+php-flexibee-cryptocurrency (0.6.1) UNRELEASED; urgency=medium
+
+  * Initial release
+  * Package Update
+  * Deps Update
+  * Packager deps update
+  * Deb Fix
+  
+ -- Vítězslav Dvořák <info@vitexsoftware.cz>  Tue, 22 Jan 2018 22:51:47 +0100

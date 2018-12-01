@@ -1,0 +1,8 @@
+debian/conf/composer.json       usr/lib/php-flexibee-cryptocurrency/
+src/*			        usr/lib/php-flexibee-cryptocurrency/
+src/FlexiPeeHP/cryptocurrency/*	usr/lib/php-flexibee-cryptocurrency/cryptocurrency/
+src/notifiers/*                 usr/lib/php-flexibee-cryptocurrency/notifiers/
+bin/*                           usr/bin/
+debian/conf/cryptocurrency.json       etc/flexibee/
+i18n/cs_CZ/LC_MESSAGES/*.mo     usr/share/locale/cs_CZ/LC_MESSAGES
+i18n/en_US/LC_MESSAGES/*.mo     usr/share/locale/en_US/LC_MESSAGES

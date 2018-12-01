@@ -1,0 +1,16 @@
+Source: php-flexibee-cryptocurrency
+Build-Depends: debhelper (>= 7.0.50~)
+Standards-Version: 3.8.4
+Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
+Uploaders: Vitex <vitex@hippy.cz>
+Priority: optional
+Homepage: https://github.com/VitexSoftware/php-flexibee-cryptocurrency
+
+Package: php-flexibee-cryptocurrency
+Depends: ${misc:Depends}, php-flexibee-config, flexipeehp-bricks (>= 0.13) , composer, php-cli
+Suggests: flexibee-server
+Architecture: all
+Section: web
+Priority: optional
+Description: Cryptocurrency support for FlexiBee
+ Alow use of Cryptocurrencies with flexibee

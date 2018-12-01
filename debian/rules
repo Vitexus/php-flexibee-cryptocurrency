@@ -1,0 +1,17 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+
+override_dh_install:
+	dh_install
+	sed -i -e 's/..\/i18n/\/usr\/share\/locale/g'            	     debian/php-flexibee-cryptocurrency/usr/lib/php-flexibee-cryptocurrency/*.php
+	sed -i -e 's/..\/vendor/\/var\/lib\/php-flexibee-cryptocurrency/g' 	     debian/php-flexibee-cryptocurrency/usr/lib/php-flexibee-cryptocurrency/flexibee-debts.php
+	sed -i -e 's/..\/vendor/\/var\/lib\/php-flexibee-cryptocurrency/g' 	     debian/php-flexibee-cryptocurrency/usr/lib/php-flexibee-cryptocurrency/flexibee-cryptocurrency.php
+	sed -i -e 's/..\/vendor/\/var\/lib\/php-flexibee-cryptocurrency/g' 	     debian/php-flexibee-cryptocurrency/usr/lib/php-flexibee-cryptocurrency/flexibee-notify-customers.php
+	sed -i -e 's/..\/vendor/\/var\/lib\/php-flexibee-cryptocurrency/g' 	     debian/php-flexibee-cryptocurrency/usr/lib/php-flexibee-cryptocurrency/Init.php
+	sed -i -e 's/\.\./\/etc\/flexibee/g' 	     debian/php-flexibee-cryptocurrency/usr/lib/php-flexibee-cryptocurrency/flexibee-debts.php
+	sed -i -e 's/\.\./\/etc\/flexibee/g' 	     debian/php-flexibee-cryptocurrency/usr/lib/php-flexibee-cryptocurrency/flexibee-cryptocurrency.php
+	sed -i -e 's/\.\./\/etc\/flexibee/g' 	     debian/php-flexibee-cryptocurrency/usr/lib/php-flexibee-cryptocurrency/flexibee-notify-customers.php
+	sed -i -e 's/\.\./\/etc\/flexibee/g' 	     debian/php-flexibee-cryptocurrency/usr/lib/php-flexibee-cryptocurrency/Init.php
+	sed -i -e 's/.\/notifiers/\/usr\/lib\/php-flexibee-cryptocurrency\/notifiers/g'     debian/php-flexibee-cryptocurrency/usr/lib/php-flexibee-cryptocurrency/flexibee-cryptocurrency.php

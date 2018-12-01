@@ -1,0 +1,50 @@
+{
+    "name": "flexibee-cryptocurrency",
+    "description": "cryptocurrency sender for FlexiBee written in PHP",
+    "type": "project",
+    "version": "0.1",
+    "authors": [
+        {
+            "name": "Vítězslav Dvořák",
+            "email": "info@vitexsoftware.cz"
+        }
+    ],
+    "config": {
+	"vendor-dir": "/var/lib/php-flexibee-cryptocurrency"
+    },
+    "require": {
+        "php": ">= 5.5.9",
+        "flexipeehp": "*",
+        "ease-framework": "*",
+        "flexipeehp-bricks": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "FlexiPeeHP\\cryptocurrency\\": "./cryptocurrency/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "/usr/share/php/Ease",
+            "options": {
+                "symlink": true
+            }
+        },
+        {
+            "type": "path",
+            "url": "/usr/share/php/FlexiPeeHP",
+            "options": {
+                "symlink": true
+            }
+        },
+        {
+            "type": "path",
+            "url": "/usr/share/php/FlexiPeeHPBricks",
+            "options": {
+                "symlink": true
+            }
+        }
+    ]
+
+}

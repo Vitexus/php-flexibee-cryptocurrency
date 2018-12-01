@@ -1,0 +1,8 @@
+#!/bin/bash
+# rm script for php-flexibee-cryptocurrency
+
+rm -f /usr/share/php-flexibee-cryptocurrency/composer.lock
+
+#DEBHELPER#
+
+exit 0
